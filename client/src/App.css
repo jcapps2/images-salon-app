@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  background: #fff;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  color: #3f51b5;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 42px;
+}
+
+#error-bar {
+  display: none;
+  font-family: 'Roboto', sans-serif;
+}
