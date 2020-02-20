@@ -2,7 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 
-
 const useStyles = makeStyles(theme => ({
     root: {
         '& > *': {
@@ -12,7 +11,6 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
-
 export default function TextInput(props) {
     const classes = useStyles();
 
@@ -21,14 +19,13 @@ export default function TextInput(props) {
             <TextField 
                 id={props.id}
                 type="text" 
-                name={props.name}
                 label={props.label}
                 autoComplete="off"
-                variant="outlined"
+                variant="filled"
                 onChange={props.onChange}
                 required={props.required}
+                error={props.error}
             />
         </span>
-        
     )
 }

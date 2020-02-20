@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
-import Form from './components/Form';
-// import MyForm from './components/NewForm';
+import MyForm from './components/MyForm';
 
 function App() {
   return (
     <div className="App">
-      <div id="error-bar">Please enter a number</div>
+      <p id="error-bar">Please enter a valid number</p>
       <p className="header"><span>Images</span></p>
-      <Form/>
+      <MyForm/>
       <p><span id="display"></span></p>
     </div>
   );

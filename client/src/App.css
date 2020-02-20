@@ -1,18 +1,39 @@
-body {
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
   text-align: center;
-  background: #fff;
-  color: black;
+  background-image: linear-gradient(
+    to right bottom,
+    #e0f2f1,
+    #4db6ac
+  );
+  color: #fff;
   font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  margin-top: 0;
 }
 
 .header {
-  color: #3f51b5;
+  color: #fff;
   /* font-family: 'Permanent Marker', cursive; */
-  font-family: 'Ma Shan Zheng', cursive;
+  font-family: 'Lobster', cursive;
   font-size: 42px;
+  margin-top: 0;
+  padding-top: 20px;
 }
 
 #error-bar {
   display: none;
   font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-color: #e53935;
+  width: 100vw !important;
+  height: auto !important;
+}
+
+#display {
+  font-size: 26px;
 }
